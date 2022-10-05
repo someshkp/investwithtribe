@@ -1,0 +1,28 @@
+.comment_form_container{
+    background-color: rgb(202, 202, 218);
+    border-radius: 20px;
+    padding: 1px;
+}
+.comment_form_container input{
+   width: 85%;
+   padding: 7px;
+   border: none;
+   outline: none;
+   background: transparent;
+}
+
+.comment_form_container button{
+    width: 12.7%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px;
+    background: var(--buttonBg);
+}
+
+.comment_form_container button:hover{
+    cursor: pointer;
+    color: var(--orange);
+    background: white;
+    border: 0.5px solid var(--orange);
+  }
